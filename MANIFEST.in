@@ -1,0 +1,5 @@
+include README.md LICENSE CITATION.cff
+recursive-include src/motrust *.py *.json *.csv *.R
+recursive-include docs *.md
+recursive-include examples *.py *.md
+recursive-include tests *.py

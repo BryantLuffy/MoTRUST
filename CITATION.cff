@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when its final citation is available."
+type: software
+title: "MoTRUST: mosaic multi-omics integration and molecular recovery"
+authors:
+  - name: "MoTRUST contributors"
+version: "0.1.0"
+license: MIT
