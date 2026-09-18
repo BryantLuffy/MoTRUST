@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "benchmark_name": "mosaic_multiomics_integration",
+  "palette_reproducibility_commit": "6b306bf05458b1f9412cdfee973738185f0f1719",
+  "methods": [
+    "Palette",
+    "MIDAS",
+    "scMoMaT",
+    "StabMap",
+    "MoNAE",
+    "MoTRUST"
+  ],
+  "scenario_order": [
+    "TEA_s1",
+    "TEA_s2",
+    "BMMC_s1",
+    "BMMC_s2",
+    "Retina",
+    "Ab-seq"
+  ],
+  "replicates": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seed_rule": "2024 + replicate - 1; identical across methods for each fixed sub-experiment",
+  "common": {
+    "cell_inclusion": "Palette Zenodo processed cells; no additional method-specific cell QC",
+    "annotations": "frozen cell type and batch metadata from the processed archive",
+    "features": "frozen paper feature universe per scenario",
+    "missingness": "extracted from the official Palette reproducibility scripts",
+    "labels_for_training": false,
+    "label_selected_checkpoint": false,
+    "output_schema": [
+      "embedding.npy",
+      "metadata.csv",
+      "run_manifest.json"
+    ]
+  },
+  "method_specific": [
+    "normalization",
+    "HVG/HVP use within the frozen feature universe",
+    "TF-IDF or LSI",
+    "latent model",
+    "officially supported convergence rule"
+  ],
+  "fixed_method_settings": {
+    "Palette": {
+      "implementation": "frozen manuscript development source plus PaletteSC 0.1.0 compiled kernels",
+      "atac_feature_cap": 10000,
+      "resource_note": "fixed unsupervised top-prevalence cap bounds the manuscript random-projection step; a 50,000-feature TEA diagnostic required 3,722 seconds and about 25 GB peak working memory",
+      "checkpoint_rule": "deterministic closed-form/decomposition endpoint"
+    },
+    "MIDAS": {
+      "implementation": "released scmidas Lightning model",
+      "epochs": 150,
+      "batch_size": 256,
+      "atac_feature_cap": 50000,
+      "checkpoint_rule": "fixed final epoch; operational checkpoint every 25 epochs",
+      "neutral_difference": "The released 500-epoch default is shortened to a label-free fixed 150-epoch endpoint for tractable six-method benchmarking; no cell-type labels or post-hoc epoch selection are used."
+    },
+    "scMoMaT": {
+      "implementation": "released scmomat model and documented train_func",
+      "iterations": 4000,
+      "latent_dimensions": 30,
+      "atac_feature_cap": 50000,
+      "checkpoint_rule": "final iteration"
+    },
+    "StabMap": {
+      "implementation": "StabMap 1.6.0",
+      "reference_rule": "observation block containing the largest number of modalities",
+      "max_features": 10000,
+      "resource_note": "fixed unsupervised cap prevents the all-peak reference decomposition from exceeding workstation virtual memory",
+      "checkpoint_rule": "deterministic mapping endpoint"
+    },
+    "MoNAE": {
+      "implementation": "released CoVELModel",
+      "max_epochs": 100,
+      "batch_size": 128,
+      "rna_feature_cap": 4000,
+      "atac_feature_cap": 10000,
+      "checkpoint_rule": "released label-free early stopping; never cell-type-label selected"
+    },
+    "MoTRUST": {
+      "implementation": "RNA/ATAC/ADT mosaic Gated-PoE trainer with geometry and EMA stability",
+      "epochs": 40,
+      "batch_size": 256,
+      "rna_feature_cap": 4000,
+      "atac_feature_cap": 10000,
+      "adt_feature_cap": 256,
+      "configuration_id": "mosaic_v2_collapse_resistant",
+      "kl_weight": 0.001,
+      "bridge_alignment_weight": 1.0,
+      "variance_floor_weight": 0.2,
+      "gate_neutral_prior_weight": 0.02,
+      "checkpoint_rule": "final epoch, never label-selected",
+      "reference_distribution_alignment": 0.5,
+      "reference_alignment_warmup_epochs": 10
+    }
+  },
+  "evaluation": {
+    "biological_conservation": [
+      "NMI",
+      "ARI",
+      "cASW",
+      "cLISI"
+    ],
+    "batch_correction": [
+      "bASW",
+      "iLISI",
+      "kBET",
+      "graph_connectivity"
+    ],
+    "modality_mixing": [
+      "CSAS",
+      "modality_kBET",
+      "CiLISI"
+    ],
+    "overall_formula": "0.6 * biological_conservation + 0.4 * batch_correction",
+    "cluster_labels_used_only_posthoc": true
+  },
+  "scenario_sources": {
+    "TEA_s1": {
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "base_batches": {
+        "B1": "B2",
+        "B2": "B3",
+        "B3": "B4",
+        "B4": "B5"
+      }
+    },
+    "TEA_s2": {
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "base_batches": {
+        "B1": "B2",
+        "B2": "B3",
+        "B3": "B4",
+        "B4": "B5"
+      }
+    },
+    "BMMC_s1": {
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "base_batches": {
+        "CITE1": "CITE/s1d1_cite",
+        "CITE2": "CITE/s1d2_cite",
+        "CITE3": "CITE/s1d3_cite",
+        "Multiome1": "Multiome/s1d1_multi",
+        "Multiome2": "Multiome/s1d2_multi",
+        "Multiome3": "Multiome/s1d3_multi"
+      }
+    },
+    "BMMC_s2": {
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "base_batches": {
+        "CITE1": "CITE/s1d1_cite",
+        "CITE2": "CITE/s1d2_cite",
+        "CITE3": "CITE/s1d3_cite",
+        "Multiome1": "Multiome/s1d1_multi",
+        "Multiome2": "Multiome/s1d2_multi",
+        "Multiome3": "Multiome/s1d3_multi"
+      }
+    },
+    "Retina": {
+      "data_root": "Human_Retina",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "base_batches": {
+        "b1": "LVG1OD",
+        "b2": "LVG1OS",
+        "b3": "LGS1OD",
+        "b4": "LGS1OS",
+        "b5": "LGS2OD",
+        "b6": "LGS2OS",
+        "b7": "LGS3OD",
+        "b8": "LGS3OS"
+      }
+    },
+    "Ab-seq": {
+      "data_root": "Young_Age",
+      "modalities": [
+        "rna",
+        "adt"
+      ],
+      "base_batches": {
+        "Age1": "Age1",
+        "Age2": "Age2",
+        "Age3": "Age3",
+        "BM1": "BM1",
+        "BM2": "BM2",
+        "BM3": "BM3"
+      }
+    }
+  }
+}

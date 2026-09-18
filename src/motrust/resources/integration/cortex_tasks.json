@@ -1,0 +1,238 @@
+{
+  "tasks": [
+    {
+      "task_id": "BICCN_human__roles_123",
+      "scenario": "BICCN_human",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "donor1",
+          "base_batch": "donor1",
+          "role": "bridge",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ]
+        },
+        {
+          "instance_batch": "donor2",
+          "base_batch": "donor2",
+          "role": "rna_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna"
+          ]
+        },
+        {
+          "instance_batch": "donor3",
+          "base_batch": "donor3",
+          "role": "atac_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "atac"
+          ]
+        }
+      ],
+      "replicate": 1
+    },
+    {
+      "task_id": "BICCN_human__roles_132",
+      "scenario": "BICCN_human",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "donor1",
+          "base_batch": "donor1",
+          "role": "bridge",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ]
+        },
+        {
+          "instance_batch": "donor3",
+          "base_batch": "donor3",
+          "role": "rna_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna"
+          ]
+        },
+        {
+          "instance_batch": "donor2",
+          "base_batch": "donor2",
+          "role": "atac_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "atac"
+          ]
+        }
+      ],
+      "replicate": 1
+    },
+    {
+      "task_id": "BICCN_human__roles_213",
+      "scenario": "BICCN_human",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "donor2",
+          "base_batch": "donor2",
+          "role": "bridge",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ]
+        },
+        {
+          "instance_batch": "donor1",
+          "base_batch": "donor1",
+          "role": "rna_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna"
+          ]
+        },
+        {
+          "instance_batch": "donor3",
+          "base_batch": "donor3",
+          "role": "atac_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "atac"
+          ]
+        }
+      ],
+      "replicate": 1
+    },
+    {
+      "task_id": "BICCN_human__roles_231",
+      "scenario": "BICCN_human",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "donor2",
+          "base_batch": "donor2",
+          "role": "bridge",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ]
+        },
+        {
+          "instance_batch": "donor3",
+          "base_batch": "donor3",
+          "role": "rna_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna"
+          ]
+        },
+        {
+          "instance_batch": "donor1",
+          "base_batch": "donor1",
+          "role": "atac_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "atac"
+          ]
+        }
+      ],
+      "replicate": 1
+    },
+    {
+      "task_id": "BICCN_human__roles_312",
+      "scenario": "BICCN_human",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "donor3",
+          "base_batch": "donor3",
+          "role": "bridge",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ]
+        },
+        {
+          "instance_batch": "donor1",
+          "base_batch": "donor1",
+          "role": "rna_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna"
+          ]
+        },
+        {
+          "instance_batch": "donor2",
+          "base_batch": "donor2",
+          "role": "atac_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "atac"
+          ]
+        }
+      ],
+      "replicate": 1
+    },
+    {
+      "task_id": "BICCN_human__roles_321",
+      "scenario": "BICCN_human",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "donor3",
+          "base_batch": "donor3",
+          "role": "bridge",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ]
+        },
+        {
+          "instance_batch": "donor2",
+          "base_batch": "donor2",
+          "role": "rna_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "rna"
+          ]
+        },
+        {
+          "instance_batch": "donor1",
+          "base_batch": "donor1",
+          "role": "atac_query",
+          "identity_policy": "shared_cell_instance",
+          "observed_modalities": [
+            "atac"
+          ]
+        }
+      ],
+      "replicate": 1
+    }
+  ]
+}

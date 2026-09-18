@@ -1,0 +1,2248 @@
+{
+  "schema_version": "1.0",
+  "palette_reproducibility_commit": "6b306bf05458b1f9412cdfee973738185f0f1719",
+  "task_count": 30,
+  "tasks": [
+    {
+      "task_id": "TEA_s1__random1",
+      "scenario": "TEA_s1",
+      "replicate": 1,
+      "official_source": "Benchmarking/Unsupervised/TEA_s1/Run_methods/Palette_TEA_s1.R",
+      "official_source_sha256": "cf9fad4256bdb82bd00da7df4d977e8ce53f0faed006725565d89e2d4c30759c",
+      "official_midas_config": "TEA_s1_v1",
+      "official_midas_step1_sha256": "7f5f239e6a00953157fb0661ef988dff82977cf74ca9ca36e485d297a7716f57",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "atac",
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s1__random2",
+      "scenario": "TEA_s1",
+      "replicate": 2,
+      "official_source": "Benchmarking/Unsupervised/TEA_s1/Run_methods/Palette_TEA_s1.R",
+      "official_source_sha256": "cf9fad4256bdb82bd00da7df4d977e8ce53f0faed006725565d89e2d4c30759c",
+      "official_midas_config": "TEA_s1",
+      "official_midas_step1_sha256": "50b994f05ebfef935c58b18e39f72ad2cc34e60c60599970610d4aeee1f37e8a",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac",
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s1__random3",
+      "scenario": "TEA_s1",
+      "replicate": 3,
+      "official_source": "Benchmarking/Unsupervised/TEA_s1/Run_methods/Palette_TEA_s1.R",
+      "official_source_sha256": "cf9fad4256bdb82bd00da7df4d977e8ce53f0faed006725565d89e2d4c30759c",
+      "official_midas_config": "TEA_s1_v2",
+      "official_midas_step1_sha256": "6ef46f4dd6d7d8172594a1e3a16e4cc3359be069230236c66d7a1da8a0837d25",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "atac",
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s1__random4",
+      "scenario": "TEA_s1",
+      "replicate": 4,
+      "official_source": "Benchmarking/Unsupervised/TEA_s1/Run_methods/Palette_TEA_s1.R",
+      "official_source_sha256": "cf9fad4256bdb82bd00da7df4d977e8ce53f0faed006725565d89e2d4c30759c",
+      "official_midas_config": "TEA_s1_v3",
+      "official_midas_step1_sha256": "d8bcb80cbfc50b7966e9c102842209de1105ba9a49f01cf88618b45de7d4d83a",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac",
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s1__random5",
+      "scenario": "TEA_s1",
+      "replicate": 5,
+      "official_source": "Benchmarking/Unsupervised/TEA_s1/Run_methods/Palette_TEA_s1.R",
+      "official_source_sha256": "cf9fad4256bdb82bd00da7df4d977e8ce53f0faed006725565d89e2d4c30759c",
+      "official_midas_config": "TEA_s1_v4",
+      "official_midas_step1_sha256": "daeea217cb390134abf7f334eb5ee36b39f88640f8a06b5a401e275b8a5aff00",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac",
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s2__random1",
+      "scenario": "TEA_s2",
+      "replicate": 1,
+      "official_source": "Benchmarking/Unsupervised/TEA_s2/Run_methods/Palette_TEA_s2.R",
+      "official_source_sha256": "e5e6c767f44f5383439bbfdb951281528f177e73860b7295961bd94e8f19811f",
+      "official_midas_config": "TEA_s2_v1",
+      "official_midas_step1_sha256": "8917572bb8a9ec73e0487fe09887f7950195f3bc436764e9e4d2af880b04d605",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "atac",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s2__random2",
+      "scenario": "TEA_s2",
+      "replicate": 2,
+      "official_source": "Benchmarking/Unsupervised/TEA_s2/Run_methods/Palette_TEA_s2.R",
+      "official_source_sha256": "e5e6c767f44f5383439bbfdb951281528f177e73860b7295961bd94e8f19811f",
+      "official_midas_config": "TEA_s2_v2",
+      "official_midas_step1_sha256": "38e7aba7b25108ec6901ec720acc12604f0a8a53b38493c2145c49d63480d007",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s2__random3",
+      "scenario": "TEA_s2",
+      "replicate": 3,
+      "official_source": "Benchmarking/Unsupervised/TEA_s2/Run_methods/Palette_TEA_s2.R",
+      "official_source_sha256": "e5e6c767f44f5383439bbfdb951281528f177e73860b7295961bd94e8f19811f",
+      "official_midas_config": "TEA_s2",
+      "official_midas_step1_sha256": "f91bd30f2238c010a2b81ff02c287c27a3e5de74adba845410025ba10fbd05f1",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "atac",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s2__random4",
+      "scenario": "TEA_s2",
+      "replicate": 4,
+      "official_source": "Benchmarking/Unsupervised/TEA_s2/Run_methods/Palette_TEA_s2.R",
+      "official_source_sha256": "e5e6c767f44f5383439bbfdb951281528f177e73860b7295961bd94e8f19811f",
+      "official_midas_config": "TEA_s2_v3",
+      "official_midas_step1_sha256": "2520d1ce45d98b6dae7e8b68ae5ae020afccb24a951d727af4c78677617bf11f",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "TEA_s2__random5",
+      "scenario": "TEA_s2",
+      "replicate": 5,
+      "official_source": "Benchmarking/Unsupervised/TEA_s2/Run_methods/Palette_TEA_s2.R",
+      "official_source_sha256": "e5e6c767f44f5383439bbfdb951281528f177e73860b7295961bd94e8f19811f",
+      "official_midas_config": "TEA_s2_v4",
+      "official_midas_step1_sha256": "68a0f49e41a60319b18eb94e57d3c2077d9245a0a81fa4e95bbf79b100c3e0cb",
+      "data_root": "PBMC_TEA",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "B1",
+          "base_batch": "B1",
+          "source_subdir": "B2",
+          "observed_modalities": [
+            "atac",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B2",
+          "base_batch": "B2",
+          "source_subdir": "B3",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B4",
+          "base_batch": "B4",
+          "source_subdir": "B5",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "B3",
+          "base_batch": "B3",
+          "source_subdir": "B4",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s1__random1",
+      "scenario": "BMMC_s1",
+      "replicate": 1,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s1/Run_methods/Palette_BMMC_s1.R",
+      "official_source_sha256": "1e48fc6ec1c362dfd2ba05c860e900c261295cf894912588be2d53d5cc213caf",
+      "official_midas_config": "BMMC_drop5",
+      "official_midas_step1_sha256": "4bfd4087ea851f4068f7296dc01208ee15f6040707195d30b7f81fd351903682",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "CITE1",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE2",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome1",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome2",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s1__random2",
+      "scenario": "BMMC_s1",
+      "replicate": 2,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s1/Run_methods/Palette_BMMC_s1.R",
+      "official_source_sha256": "1e48fc6ec1c362dfd2ba05c860e900c261295cf894912588be2d53d5cc213caf",
+      "official_midas_config": "BMMC_drop1",
+      "official_midas_step1_sha256": "eee231ffce3a862840030b75499684371be72846a525556d2a4bc7536c6b4cbf",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "CITE1",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE2",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome1",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome2",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome3",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s1__random3",
+      "scenario": "BMMC_s1",
+      "replicate": 3,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s1/Run_methods/Palette_BMMC_s1.R",
+      "official_source_sha256": "1e48fc6ec1c362dfd2ba05c860e900c261295cf894912588be2d53d5cc213caf",
+      "official_midas_config": "BMMC_drop6",
+      "official_midas_step1_sha256": "705cd51473526f8548b44521a928d035c38db311e8aba20e034615448f50b4eb",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "CITE1",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE2",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome1",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome2",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s1__random4",
+      "scenario": "BMMC_s1",
+      "replicate": 4,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s1/Run_methods/Palette_BMMC_s1.R",
+      "official_source_sha256": "1e48fc6ec1c362dfd2ba05c860e900c261295cf894912588be2d53d5cc213caf",
+      "official_midas_config": "BMMC_drop4",
+      "official_midas_step1_sha256": "281b26d3b106ee48a5855c95cee288d671ca6fccd19d0953021ba498781460aa",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "CITE1",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE2",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome2",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome3",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s1__random5",
+      "scenario": "BMMC_s1",
+      "replicate": 5,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s1/Run_methods/Palette_BMMC_s1.R",
+      "official_source_sha256": "1e48fc6ec1c362dfd2ba05c860e900c261295cf894912588be2d53d5cc213caf",
+      "official_midas_config": "BMMC_drop2",
+      "official_midas_step1_sha256": "40f48853f1ff0919de1e241cf3af79c3e6aebeeec54b48eee77d3c084b44c261",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "CITE1",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome1",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome2",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome3",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s2__random1",
+      "scenario": "BMMC_s2",
+      "replicate": 1,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s2/Run_methods/Palette_BMMC_s2.R",
+      "official_source_sha256": "3ae8bb17344b77a54e0f46f98aa29f48c175dea876a26d6e229c099f818370f0",
+      "official_midas_config": "BMMC_s34",
+      "official_midas_step1_sha256": "4b282550fadc0490ef7a26051dd4d7a0540dc3592a305f45692a6cba11b6887c",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "CITE1rna",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "CITE2rna",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "CITE3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "CITE1adt",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "CITE2adt",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "Multiome1",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Multiome2rna",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "Multiome3rna",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "Multiome2atac",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "Multiome3atac",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s2__random2",
+      "scenario": "BMMC_s2",
+      "replicate": 2,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s2/Run_methods/Palette_BMMC_s2.R",
+      "official_source_sha256": "3ae8bb17344b77a54e0f46f98aa29f48c175dea876a26d6e229c099f818370f0",
+      "official_midas_config": "BMMC_s35",
+      "official_midas_step1_sha256": "0020484726872b4ad955876c5c46db0d544314f261ad6373f9fd93cbfdb2acc2",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "cite1rna",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite2rna",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "mul1rna",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul2",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "mul3rna",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite1adt",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite2adt",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul1atac",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul3atac",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s2__random3",
+      "scenario": "BMMC_s2",
+      "replicate": 3,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s2/Run_methods/Palette_BMMC_s2.R",
+      "official_source_sha256": "3ae8bb17344b77a54e0f46f98aa29f48c175dea876a26d6e229c099f818370f0",
+      "official_midas_config": "BMMC_s36",
+      "official_midas_step1_sha256": "12d4d15a484805605553eba7fc34af5cef3e3c4486dd3d7f20ff8eb00917e952",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "cite1rna",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite2rna",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "mul1rna",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul2rna",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul3",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "cite1adt",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite2adt",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul1atac",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul2atac",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s2__random4",
+      "scenario": "BMMC_s2",
+      "replicate": 4,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s2/Run_methods/Palette_BMMC_s2.R",
+      "official_source_sha256": "3ae8bb17344b77a54e0f46f98aa29f48c175dea876a26d6e229c099f818370f0",
+      "official_midas_config": "BMMC_s24",
+      "official_midas_step1_sha256": "06343a683879eba022c201765328335387ab5c0c6ac6910e7dba6e6487aabd04",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "cite1rna",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite2",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "cite3rna",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul1",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "mul2rna",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul3rna",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite1adt",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul2atac",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul3atac",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        }
+      ]
+    },
+    {
+      "task_id": "BMMC_s2__random5",
+      "scenario": "BMMC_s2",
+      "replicate": 5,
+      "official_source": "Benchmarking/Unsupervised/BMMC_s2/Run_methods/Palette_BMMC_s2.R",
+      "official_source_sha256": "3ae8bb17344b77a54e0f46f98aa29f48c175dea876a26d6e229c099f818370f0",
+      "official_midas_config": "BMMC_s26",
+      "official_midas_step1_sha256": "30dd54e89595639582db1bac8c4580e7385bce2c787ce316d38c38da76e1708e",
+      "data_root": "BMMC_CITE_Multiome",
+      "modalities": [
+        "rna",
+        "atac",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "cite1rna",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite2",
+          "base_batch": "CITE2",
+          "source_subdir": "CITE/s1d2_cite",
+          "observed_modalities": [
+            "rna",
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "cite3rna",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul1rna",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul2rna",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul3",
+          "base_batch": "Multiome3",
+          "source_subdir": "Multiome/s1d3_multi",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "cite1adt",
+          "base_batch": "CITE1",
+          "source_subdir": "CITE/s1d1_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "cite3",
+          "base_batch": "CITE3",
+          "source_subdir": "CITE/s1d3_cite",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul1atac",
+          "base_batch": "Multiome1",
+          "source_subdir": "Multiome/s1d1_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        },
+        {
+          "instance_batch": "mul2atac",
+          "base_batch": "Multiome2",
+          "source_subdir": "Multiome/s1d2_multi",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "modality_specific_copy"
+        }
+      ]
+    },
+    {
+      "task_id": "Retina__random1",
+      "scenario": "Retina",
+      "replicate": 1,
+      "official_source": "Benchmarking/Unsupervised/Retina/Run_methods/Palette_Retina.R",
+      "official_source_sha256": "fa548508583d779f9603ebf81dc6140e2a48183b295442f7fb0726ecdd07b003",
+      "official_midas_config": "Retina_s1",
+      "official_midas_step1_sha256": "c193be7fd7eb429e1ed8805e0bc0c261866c2d404144a9a53e9570b268a8f9ea",
+      "data_root": "Human_Retina",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "b3",
+          "base_batch": "b3",
+          "source_subdir": "LGS1OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b4",
+          "base_batch": "b4",
+          "source_subdir": "LGS1OS",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b5",
+          "base_batch": "b5",
+          "source_subdir": "LGS2OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b6",
+          "base_batch": "b6",
+          "source_subdir": "LGS2OS",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b8",
+          "base_batch": "b8",
+          "source_subdir": "LGS3OS",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b1",
+          "base_batch": "b1",
+          "source_subdir": "LVG1OD",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b2",
+          "base_batch": "b2",
+          "source_subdir": "LVG1OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b7",
+          "base_batch": "b7",
+          "source_subdir": "LGS3OD",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Retina__random2",
+      "scenario": "Retina",
+      "replicate": 2,
+      "official_source": "Benchmarking/Unsupervised/Retina/Run_methods/Palette_Retina.R",
+      "official_source_sha256": "fa548508583d779f9603ebf81dc6140e2a48183b295442f7fb0726ecdd07b003",
+      "official_midas_config": "Retina_s2",
+      "official_midas_step1_sha256": "4786335152c4f35800c452f8dc6c571abecbda1529b622338e23bca0cf1a3499",
+      "data_root": "Human_Retina",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "b2",
+          "base_batch": "b2",
+          "source_subdir": "LVG1OS",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b3",
+          "base_batch": "b3",
+          "source_subdir": "LGS1OD",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b4",
+          "base_batch": "b4",
+          "source_subdir": "LGS1OS",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b5",
+          "base_batch": "b5",
+          "source_subdir": "LGS2OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b7",
+          "base_batch": "b7",
+          "source_subdir": "LGS3OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b1",
+          "base_batch": "b1",
+          "source_subdir": "LVG1OD",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b6",
+          "base_batch": "b6",
+          "source_subdir": "LGS2OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b8",
+          "base_batch": "b8",
+          "source_subdir": "LGS3OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Retina__random3",
+      "scenario": "Retina",
+      "replicate": 3,
+      "official_source": "Benchmarking/Unsupervised/Retina/Run_methods/Palette_Retina.R",
+      "official_source_sha256": "fa548508583d779f9603ebf81dc6140e2a48183b295442f7fb0726ecdd07b003",
+      "official_midas_config": "Retina",
+      "official_midas_step1_sha256": "695655a32962b7155ad81debedb4ab74ad112ac83ac9505653ffd30ca64ff8e2",
+      "data_root": "Human_Retina",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "b1",
+          "base_batch": "b1",
+          "source_subdir": "LVG1OD",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b2",
+          "base_batch": "b2",
+          "source_subdir": "LVG1OS",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b3",
+          "base_batch": "b3",
+          "source_subdir": "LGS1OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b4",
+          "base_batch": "b4",
+          "source_subdir": "LGS1OS",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b5",
+          "base_batch": "b5",
+          "source_subdir": "LGS2OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b6",
+          "base_batch": "b6",
+          "source_subdir": "LGS2OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b7",
+          "base_batch": "b7",
+          "source_subdir": "LGS3OD",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b8",
+          "base_batch": "b8",
+          "source_subdir": "LGS3OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Retina__random4",
+      "scenario": "Retina",
+      "replicate": 4,
+      "official_source": "Benchmarking/Unsupervised/Retina/Run_methods/Palette_Retina.R",
+      "official_source_sha256": "fa548508583d779f9603ebf81dc6140e2a48183b295442f7fb0726ecdd07b003",
+      "official_midas_config": "Retina_s3",
+      "official_midas_step1_sha256": "5d57bd1ea1a3b2b9c95d8cfa8a2c31b5f8fd947ed61b5f42948066208cf811ea",
+      "data_root": "Human_Retina",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "b2",
+          "base_batch": "b2",
+          "source_subdir": "LVG1OS",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b4",
+          "base_batch": "b4",
+          "source_subdir": "LGS1OS",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b5",
+          "base_batch": "b5",
+          "source_subdir": "LGS2OD",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b6",
+          "base_batch": "b6",
+          "source_subdir": "LGS2OS",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b7",
+          "base_batch": "b7",
+          "source_subdir": "LGS3OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b1",
+          "base_batch": "b1",
+          "source_subdir": "LVG1OD",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b3",
+          "base_batch": "b3",
+          "source_subdir": "LGS1OD",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b8",
+          "base_batch": "b8",
+          "source_subdir": "LGS3OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Retina__random5",
+      "scenario": "Retina",
+      "replicate": 5,
+      "official_source": "Benchmarking/Unsupervised/Retina/Run_methods/Palette_Retina.R",
+      "official_source_sha256": "fa548508583d779f9603ebf81dc6140e2a48183b295442f7fb0726ecdd07b003",
+      "official_midas_config": "Retina_s4",
+      "official_midas_step1_sha256": "9be15070de78872f1169fbb7b0f513797042aa591acbb4047ca9685e2a61f258",
+      "data_root": "Human_Retina",
+      "modalities": [
+        "rna",
+        "atac"
+      ],
+      "observations": [
+        {
+          "instance_batch": "b1",
+          "base_batch": "b1",
+          "source_subdir": "LVG1OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b3",
+          "base_batch": "b3",
+          "source_subdir": "LGS1OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b5",
+          "base_batch": "b5",
+          "source_subdir": "LGS2OD",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b6",
+          "base_batch": "b6",
+          "source_subdir": "LGS2OS",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b7",
+          "base_batch": "b7",
+          "source_subdir": "LGS3OD",
+          "observed_modalities": [
+            "rna",
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b2",
+          "base_batch": "b2",
+          "source_subdir": "LVG1OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b4",
+          "base_batch": "b4",
+          "source_subdir": "LGS1OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "b8",
+          "base_batch": "b8",
+          "source_subdir": "LGS3OS",
+          "observed_modalities": [
+            "atac"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Ab-seq__random1",
+      "scenario": "Ab-seq",
+      "replicate": 1,
+      "official_source": "Benchmarking/Unsupervised/Ab-seq/Run_methods/Palette_Ab-seq.R",
+      "official_source_sha256": "b416945fcfdda9856ff3daed5570fdc0704f3356dd35c93f088100b0b48f9e17",
+      "official_midas_config": "ABseq_s1",
+      "official_midas_step1_sha256": "c82a4c60ace6a3aeecd338ef37017e46a5e820e59b476d59067ab8fb1420fdbc",
+      "data_root": "Young_Age",
+      "modalities": [
+        "rna",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "Age1",
+          "base_batch": "Age1",
+          "source_subdir": "Age1",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age3",
+          "base_batch": "Age3",
+          "source_subdir": "Age3",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM1",
+          "base_batch": "BM1",
+          "source_subdir": "BM1",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM2",
+          "base_batch": "BM2",
+          "source_subdir": "BM2",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age2",
+          "base_batch": "Age2",
+          "source_subdir": "Age2",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM3",
+          "base_batch": "BM3",
+          "source_subdir": "BM3",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Ab-seq__random2",
+      "scenario": "Ab-seq",
+      "replicate": 2,
+      "official_source": "Benchmarking/Unsupervised/Ab-seq/Run_methods/Palette_Ab-seq.R",
+      "official_source_sha256": "b416945fcfdda9856ff3daed5570fdc0704f3356dd35c93f088100b0b48f9e17",
+      "official_midas_config": "ABseq_s2",
+      "official_midas_step1_sha256": "b086088333e9ee1bcb554d82f7158d51049082ef488ef92ae809b553e87b0d99",
+      "data_root": "Young_Age",
+      "modalities": [
+        "rna",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "Age1",
+          "base_batch": "Age1",
+          "source_subdir": "Age1",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age3",
+          "base_batch": "Age3",
+          "source_subdir": "Age3",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM2",
+          "base_batch": "BM2",
+          "source_subdir": "BM2",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM3",
+          "base_batch": "BM3",
+          "source_subdir": "BM3",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age2",
+          "base_batch": "Age2",
+          "source_subdir": "Age2",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM1",
+          "base_batch": "BM1",
+          "source_subdir": "BM1",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Ab-seq__random3",
+      "scenario": "Ab-seq",
+      "replicate": 3,
+      "official_source": "Benchmarking/Unsupervised/Ab-seq/Run_methods/Palette_Ab-seq.R",
+      "official_source_sha256": "b416945fcfdda9856ff3daed5570fdc0704f3356dd35c93f088100b0b48f9e17",
+      "official_midas_config": "ABseq_s3",
+      "official_midas_step1_sha256": "26bb9641159e3ed32b3f56e3459608695aa947b520d8b0b1b894c94917741155",
+      "data_root": "Young_Age",
+      "modalities": [
+        "rna",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "Age2",
+          "base_batch": "Age2",
+          "source_subdir": "Age2",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age3",
+          "base_batch": "Age3",
+          "source_subdir": "Age3",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM1",
+          "base_batch": "BM1",
+          "source_subdir": "BM1",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM2",
+          "base_batch": "BM2",
+          "source_subdir": "BM2",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age1",
+          "base_batch": "Age1",
+          "source_subdir": "Age1",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM3",
+          "base_batch": "BM3",
+          "source_subdir": "BM3",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Ab-seq__random4",
+      "scenario": "Ab-seq",
+      "replicate": 4,
+      "official_source": "Benchmarking/Unsupervised/Ab-seq/Run_methods/Palette_Ab-seq.R",
+      "official_source_sha256": "b416945fcfdda9856ff3daed5570fdc0704f3356dd35c93f088100b0b48f9e17",
+      "official_midas_config": "ABseq",
+      "official_midas_step1_sha256": "c472cfe9700c0642d044726a3e4bdc1e1bf802e357fcb5805f7d31efa07102b9",
+      "data_root": "Young_Age",
+      "modalities": [
+        "rna",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "Age1",
+          "base_batch": "Age1",
+          "source_subdir": "Age1",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age2",
+          "base_batch": "Age2",
+          "source_subdir": "Age2",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM1",
+          "base_batch": "BM1",
+          "source_subdir": "BM1",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM3",
+          "base_batch": "BM3",
+          "source_subdir": "BM3",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age3",
+          "base_batch": "Age3",
+          "source_subdir": "Age3",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM2",
+          "base_batch": "BM2",
+          "source_subdir": "BM2",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    },
+    {
+      "task_id": "Ab-seq__random5",
+      "scenario": "Ab-seq",
+      "replicate": 5,
+      "official_source": "Benchmarking/Unsupervised/Ab-seq/Run_methods/Palette_Ab-seq.R",
+      "official_source_sha256": "b416945fcfdda9856ff3daed5570fdc0704f3356dd35c93f088100b0b48f9e17",
+      "official_midas_config": "ABseq_s4",
+      "official_midas_step1_sha256": "c1dbce8174eb09b3fefcd162d6bc2ab1169ce94afee196964a935b573e41039a",
+      "data_root": "Young_Age",
+      "modalities": [
+        "rna",
+        "adt"
+      ],
+      "observations": [
+        {
+          "instance_batch": "Age1",
+          "base_batch": "Age1",
+          "source_subdir": "Age1",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age2",
+          "base_batch": "Age2",
+          "source_subdir": "Age2",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM1",
+          "base_batch": "BM1",
+          "source_subdir": "BM1",
+          "observed_modalities": [
+            "adt"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM2",
+          "base_batch": "BM2",
+          "source_subdir": "BM2",
+          "observed_modalities": [
+            "adt",
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "Age3",
+          "base_batch": "Age3",
+          "source_subdir": "Age3",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        },
+        {
+          "instance_batch": "BM3",
+          "base_batch": "BM3",
+          "source_subdir": "BM3",
+          "observed_modalities": [
+            "rna"
+          ],
+          "identity_policy": "shared_cell_instance"
+        }
+      ]
+    }
+  ],
+  "attribution": "Observation designs follow the Palette reproducibility benchmark at the recorded upstream commit; original script checksums are retained."
+}
