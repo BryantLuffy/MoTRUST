@@ -1,0 +1,73 @@
+{
+  "vae": {
+    "hidden_dims": [
+      512,
+      256
+    ],
+    "dim_c": 32,
+    "dim_u": 2,
+    "use_gated_poe": true,
+    "use_shared_backbone": false,
+    "rna_distribution": "poisson",
+    "adt_distribution": "poisson",
+    "epochs": 100,
+    "batch_size": 256,
+    "learning_rate": 0.0002,
+    "kl_weight": 0.001,
+    "bridge_alignment_weight": 1.0,
+    "geometry_weight": 0.1,
+    "ema_weight": 0.02,
+    "ema_decay": 0.995,
+    "gate_prior_weight": 0.02
+  },
+  "head": {
+    "hidden": [
+      256,
+      256
+    ],
+    "epochs": 100,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "checkpoint_every": 10
+  },
+  "adaptation": {
+    "epochs": 50,
+    "batch_size": 256,
+    "encoder_learning_rate": 5e-05,
+    "head_learning_rate": 0.0002,
+    "latent_anchor_weight": 0.01,
+    "checkpoint_every": 10
+  },
+  "refinement": {
+    "epochs": 20,
+    "batch_size": 256,
+    "encoder_learning_rate": 1e-05,
+    "head_learning_rate": 5e-05,
+    "latent_anchor_weight": 0.01,
+    "checkpoint_every": 1,
+    "atac_weight": 3
+  },
+  "seeds": [
+    42,
+    0,
+    1
+  ],
+  "sources": {
+    "TEA": "TEA_s1",
+    "BMMC-Multiome": "BMMC_s1",
+    "Retina": "Retina"
+  },
+  "split_seed": 913,
+  "distribution": {
+    "epochs": 100,
+    "batch_size": 128,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.0001,
+    "gradient_clip": 2,
+    "steps": 100,
+    "draws": 32,
+    "inference_batch_size": 64,
+    "mean_projection_tolerance": 2e-05
+  }
+}
